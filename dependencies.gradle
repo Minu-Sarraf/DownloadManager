@@ -1,0 +1,29 @@
+ext {
+
+    supportLibrary = '27.0.2'
+    jUnit = '4.12'
+    butterKnife = '8.4.0'
+    daggerCompiler = '2.7'
+    daggerProvided = '10.0-b28'
+    retrofit = '2.1.0'
+    fetchVersion = '1.1.5'
+    multidexVersion = '1.0.1'
+    rxversion = '0.24.0'
+
+
+    projectDependencies = [
+            appcompat              : "com.android.support:appcompat-v7:$supportLibrary",
+            junit                  : "junit:junit:$jUnit",
+            butterknife            : "com.jakewharton:butterknife:$butterKnife",
+            butterknifecompiler    : "com.jakewharton:butterknife-compiler:$butterKnife",
+            dagger                 : "com.google.dagger:dagger:$daggerCompiler",
+            daggercompiler         : "com.google.dagger:dagger-compiler:$daggerCompiler",
+            daggerprovided         : "org.glassfish:javax.annotation:$daggerProvided",
+            rxJavaAdapter          : "com.squareup.retrofit2:adapter-rxjava:$retrofit",
+            fetch                  : "com.tonyodev.fetch:fetch:$fetchVersion",
+            rxandroid              : "io.reactivex:rxandroid:$rxversion",
+            multidex               : "com.android.support:multidex:$multidexVersion"
+
+    ]
+
+}
